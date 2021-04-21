@@ -1,14 +1,14 @@
 {
-  "name": "@pancakeswap-libs/eslint-config-pancake",
+  "name": "@rice-libs/eslint-config-rice",
   "version": "1.0.1",
-  "description": "Eslint config for PancakeSwap",
+  "description": "Eslint config for RiceFarm",
   "main": "lib/index.js",
   "files": [
     "lib"
   ],
-  "repository": "https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/eslint-config-pancake",
+  "repository": "https://github.com/rice-farm/rice-toolkit/tree/master/packages/eslint-config-rice",
   "license": "MIT",
-  "author": "RabbitDoge",
+  "author": "HappyBobaDev",
   "private": false,
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.7.0",
