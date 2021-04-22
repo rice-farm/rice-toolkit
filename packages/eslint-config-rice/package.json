@@ -1,7 +1,7 @@
 {
-  "name": "@rice-libs/eslint-config-rice",
-  "version": "1.0.1",
-  "description": "Eslint config for RiceFarm",
+  "name": "@ricefarm/eslint-config-rice",
+  "version": "0.0.1",
+  "description": "Eslint config for Rice",
   "main": "lib/index.js",
   "files": [
     "lib"
