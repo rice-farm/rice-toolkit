@@ -1,6 +1,6 @@
 # 🍚 Rice UIkit
 
-[![Version](https://img.shields.io/npm/v/@pancakeswap-libs/uikit)](https://www.npmjs.com/package/@ricefarm/uikit) [![Size](https://img.shields.io/bundlephobia/min/@ricefarm-libs/uikit)](https://www.npmjs.com/package/@ricefarm/uikit)
+[![Version](https://img.shields.io/npm/v/@ricefarm/uikit)](https://www.npmjs.com/package/@ricefarm/uikit) [![Size](https://img.shields.io/bundlephobia/min/@ricefarm/uikit)](https://www.npmjs.com/package/@ricefarm/uikit)
 
 Rice Farm UIkit is a set of React components and hooks used to build pages on Pancake's apps. It also contains a theme file for dark and light mode.
 
@@ -12,7 +12,7 @@ Rice Farm UIkit is a set of React components and hooks used to build pages on Pa
 
 ### Theme
 
-Before using Pancake UIkit, you need to provide the theme file to styled-component.
+Before using Rice UIkit, you need to provide the theme file to styled-component.
 
 ```
 import { ThemeProvider } from 'styled-components'

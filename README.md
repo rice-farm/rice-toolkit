@@ -4,8 +4,8 @@ This repository is a monorepo manage with [yarn workspaces](https://classic.yarn
 
 ## Packages
 
-- [pancake-uikit](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit) : React components used to build the Pancake UI
-- [eslint-config-pancake](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/eslint-config-pancake) : An ESLint config for pancake, with Typescript and Prettier support
+- [rice-uikit](https://github.com/rice-farm/rice-toolkit/tree/master/packages/rice-uikit): React components used to build the RiceFarm UI
+- [eslint-config-rice](https://github.com/rice-farm/rice-toolkit/tree/master/packages/eslint-config-rice): An ESLint config for Rice, with Typescript and Prettier support
 
 ## How to use
 
