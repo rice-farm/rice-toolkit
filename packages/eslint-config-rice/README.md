@@ -1,6 +1,6 @@
-# eslint-config-pancake
+# eslint-config-rice
 
-Pancake Eslint config with:
+Rice Eslint config with:
 
 - Airbnb config
 - Typescript
@@ -9,7 +9,7 @@ Pancake Eslint config with:
 ## Usage
 
 ```
-npx install-peerdeps --dev @pancakeswap-libs/eslint-config-pancake
+npx install-peerdeps --dev @ricefarm/eslint-config-rice
 ```
 
-Add `"extends": "@pancakeswap-libs/eslint-config-pancake"` to your eslint config file.
+Add `"extends": "@ricefarm/eslint-config-rice"` to your eslint config file.
