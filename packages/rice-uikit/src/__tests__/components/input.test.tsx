@@ -13,7 +13,7 @@ it("renders correctly", () => {
       border: 0;
       border-radius: 16px;
       box-shadow: inset 0px 2px 2px -1px rgba(74,74,104,0.1);
-      color: #452A7A;
+      color: #08a029;
       display: block;
       font-size: 16px;
       height: 40px;
