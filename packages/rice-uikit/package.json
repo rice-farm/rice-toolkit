@@ -1,6 +1,8 @@
 {
   "name": "@rice-libs/uikit",
   "version": "0.26.2",
+  "name": "@ricefarm/uikit",
+  "version": "0.27.0",
   "description": "Set of UI components for RiceFarm projects",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
