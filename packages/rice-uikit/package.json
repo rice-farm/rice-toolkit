@@ -1,8 +1,6 @@
 {
-  "name": "@rice-libs/uikit",
-  "version": "0.26.2",
   "name": "@ricefarm/uikit",
-  "version": "0.27.0",
+  "version": "0.27.1",
   "description": "Set of UI components for RiceFarm projects",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -14,7 +12,8 @@
   "license": "MIT",
   "scripts": {
     "start": "yarn storybook",
-    "build": "del /f dist && rollup -c && tsc -d --emitDeclarationOnly --declarationDir dist",
+    "build": "rm -rf ./dist && rollup -c && tsc -d --emitDeclarationOnly --declarationDir dist",
+    "build:win": "del /f dist && rollup -c && tsc -d --emitDeclarationOnly --declarationDir dist",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
     "format:check": "prettier --check --loglevel error 'src/**/*.{js,jsx,ts,tsx}'",
     "format:write": "prettier --write 'src/**/*.{js,jsx,ts,tsx}'",
