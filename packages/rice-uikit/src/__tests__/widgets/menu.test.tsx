@@ -55,7 +55,7 @@ it("renders correctly", () => {
       left: 0px;
       width: 100%;
       height: 100%;
-      background-color: #08a029;
+      background-color: #452a7a;
       -webkit-transition: opacity 0.4s;
       transition: opacity 0.4s;
       opacity: 0;
@@ -74,7 +74,7 @@ it("renders correctly", () => {
       -webkit-align-self: center;
       -ms-flex-item-align: center;
       align-self: center;
-      fill: #666666;
+      fill: #7A6EAA;
       -webkit-flex-shrink: 0;
       -ms-flex-negative: 0;
       flex-shrink: 0;
@@ -84,7 +84,7 @@ it("renders correctly", () => {
       -webkit-align-self: center;
       -ms-flex-item-align: center;
       align-self: center;
-      fill: #08a029;
+      fill: #280D5F;
       -webkit-flex-shrink: 0;
       -ms-flex-negative: 0;
       flex-shrink: 0;
@@ -94,7 +94,7 @@ it("renders correctly", () => {
       -webkit-align-self: center;
       -ms-flex-item-align: center;
       align-self: center;
-      fill: #08a029;
+      fill: #280D5F;
       -webkit-flex-shrink: 0;
       -ms-flex-negative: 0;
       flex-shrink: 0;
@@ -276,7 +276,7 @@ it("renders correctly", () => {
     }
 
     .c4 {
-      color: #08a029;
+      color: #280D5F;
       padding: 0 8px;
       border-radius: 8px;
     }
@@ -359,7 +359,7 @@ it("renders correctly", () => {
       padding: 0 16px;
       font-size: 16px;
       background-color: transparent;
-      color: #666666;
+      color: #7A6EAA;
       box-shadow: inset 4px 0px 0px #1FC7D4;
       -webkit-flex-shrink: 0;
       -ms-flex-negative: 0;
@@ -380,7 +380,7 @@ it("renders correctly", () => {
     }
 
     .c12 svg {
-      fill: #666666;
+      fill: #7A6EAA;
     }
 
     .c12:hover {
@@ -391,7 +391,7 @@ it("renders correctly", () => {
       background-clip: text;
       -webkit-animation: fKQuCC 3s ease-in-out infinite;
       animation: fKQuCC 3s ease-in-out infinite;
-      background: linear-gradient(139.73deg,#E6FDFF 0%,#F3EFFF 100%);
+      background: linear-gradient(139.73deg,#E5FDFF 0%,#F3EFFF 100%);
       background-size: 400% 100%;
     }
 
@@ -409,7 +409,7 @@ it("renders correctly", () => {
       padding: 0 16px;
       font-size: 16px;
       background-color: transparent;
-      color: #666666;
+      color: #7A6EAA;
       box-shadow: none;
       -webkit-flex-shrink: 0;
       -ms-flex-negative: 0;
@@ -430,7 +430,7 @@ it("renders correctly", () => {
     }
 
     .c16 svg {
-      fill: #666666;
+      fill: #7A6EAA;
     }
 
     .c16:hover {
@@ -441,7 +441,7 @@ it("renders correctly", () => {
       background-clip: text;
       -webkit-animation: fKQuCC 3s ease-in-out infinite;
       animation: fKQuCC 3s ease-in-out infinite;
-      background: linear-gradient(139.73deg,#E6FDFF 0%,#F3EFFF 100%);
+      background: linear-gradient(139.73deg,#E5FDFF 0%,#F3EFFF 100%);
       background-size: 400% 100%;
     }
 
@@ -1068,6 +1068,13 @@ it("renders correctly", () => {
                     class="c14"
                   >
                     Profile & Teams
+                  </div>
+                  <div
+                    class="c18 c19"
+                    color="failure"
+                    font-size="14px"
+                  >
+                    LIVE
                   </div>
                   <svg
                     class="c7"
