@@ -120,19 +120,19 @@ export const links = [
     items: [
       {
         label: "Voting",
-        href: "https://voting.pancakeswap.finance",
+        href: "https://voting.ricefarm.fi",
       },
       {
         label: "Github",
-        href: "https://github.com/pancakeswap",
+        href: "https://github.com/rice-farm",
       },
       {
         label: "Docs",
-        href: "https://docs.pancakeswap.finance",
+        href: "https://docs.ricefarm.fi",
       },
       {
         label: "Blog",
-        href: "https://pancakeswap.medium.com",
+        href: "https://bobagroup.medium.com",
       },
     ],
   },
@@ -142,7 +142,7 @@ export const socials = [
   {
     label: "Telegram",
     icon: "TelegramIcon",
-    href: "https://t.me/teslasafe",
+    href: "https://t.me/tesla_safe",
   },
   {
     label: "Twitter",
