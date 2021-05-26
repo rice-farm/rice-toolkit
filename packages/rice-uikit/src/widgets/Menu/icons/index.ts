@@ -6,7 +6,7 @@ export { default as HomeIcon } from "./Home";
 export { default as IfoIcon } from "./Ifo";
 export { default as InfoIcon } from "./Info";
 export { default as LanguageIcon } from "./Language";
-export { default as LogoIcon } from "./LogoTs";
+export { default as LogoIcon } from "./LogoRice";
 export { default as TeslaSafeIcon } from "./LogoTs";
 export { default as RiceIcon } from "./LogoRice";
 export { default as PancakeIcon } from "./LogoPancake";
