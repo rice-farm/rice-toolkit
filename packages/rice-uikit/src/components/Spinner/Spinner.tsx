@@ -1,6 +1,6 @@
 import React from "react";
 import styled, { keyframes } from "styled-components";
-import PanIcon from "./PanIcon";
+import RiceIcon from "./RiceIcon";
 import PancakeIcon from "./PancakeIcon";
 import { SpinnerProps } from "./types";
 
@@ -54,7 +54,7 @@ const Spinner: React.FC<SpinnerProps> = ({ size = 128 }) => {
     <Container>
       {/* <RotatingPancakeIcon width={`${size * 0.5}px`} /> */}
       <FloatingPanIconWrapper>
-        <PanIcon width={`${size}px`} />
+        <RiceIcon width={`${size}px`} />
       </FloatingPanIconWrapper>
     </Container>
   );
