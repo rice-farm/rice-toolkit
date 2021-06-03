@@ -32,7 +32,7 @@ export { default as InfoIcon } from "./Icons/Info";
 export { default as LaurelLeftIcon } from "./Icons/LaurelLeft";
 export { default as LaurelRightIcon } from "./Icons/LaurelRight";
 export { default as ListViewIcon } from "./Icons/ListView";
-export { default as LogoIcon } from "./Icons/Logo";
+export { default as LogoIcon } from "./Icons/RiceRound"; // changed from /Logo
 export { default as LogoRoundIcon } from "./Icons/LogoRound";
 export { default as MedalBronzeIcon } from "./Icons/MedalBronze";
 export { default as MedalGoldIcon } from "./Icons/MedalGold";
@@ -45,6 +45,8 @@ export { default as NoProfileAvatarIcon } from "./Icons/NoProfileAvatar";
 export { default as OpenNewIcon } from "./Icons/OpenNew";
 export { default as PancakesIcon } from "./Icons/Pancakes";
 export { default as PancakeRoundIcon } from "./Icons/PancakeRound";
+export { default as RiceRoundIcon } from "./Icons/RiceRound";
+export { default as TeslaSafeRoundIcon } from "./Icons/TeslaSafeRound";
 export { default as PocketWatchIcon } from "./Icons/PocketWatch";
 export { default as PlayCircleOutlineIcon } from "./Icons/PlayCircleOutline";
 export { default as PrizeIcon } from "./Icons/Prize";

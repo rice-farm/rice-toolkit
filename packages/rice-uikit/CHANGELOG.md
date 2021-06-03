@@ -3,6 +3,30 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.27.7]() (2021-05-31)
+
+### Features
+
+* Add referral icon
+
+# [0.27.6]() (2021-05-29)
+
+### Features
+
+* Add spinner for ricefarm
+
+# [0.27.5]() (2021-05-20)
+
+### Features
+
+* Add svg's for ricefarm
+
+# [0.27.4](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap-libs/uikit@0.25.3...@pancakeswap-libs/uikit@0.26.0) (2021-05-11)
+
+### Features
+
+* Add for v1 TeslaSafe
+
 # [0.26.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap-libs/uikit@0.25.3...@pancakeswap-libs/uikit@0.26.0) (2021-04-20)
 
 
