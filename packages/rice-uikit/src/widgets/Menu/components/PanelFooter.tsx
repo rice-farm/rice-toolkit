@@ -4,11 +4,11 @@ import { CogIcon } from "../../../components/Svg";
 import IconButton from "../../../components/Button/IconButton";
 import { MENU_ENTRY_HEIGHT } from "../config";
 import { PanelProps, PushedProps } from "../types";
-import CakePrice from "./CakePrice";
-import TeslaSafePrice from "./TeslaSafePrice";
+// import TeslaSafePrice from "./TeslaSafePrice";
+import RicePrice from "./RicePrice";
 import ThemeSwitcher from "./ThemeSwitcher";
 import SocialLinks from "./SocialLinks";
-import LangSelector from "./LangSelector";
+// import LangSelector from "./LangSelector";
 
 interface Props extends PanelProps, PushedProps {}
 
@@ -41,9 +41,9 @@ const PanelFooter: React.FC<Props> = ({
   toggleTheme,
   isDark,
   cakePriceUsd,
-  currentLang,
-  langs,
-  setLang,
+  // currentLang,
+  // langs,
+  // setLang,
 }) => {
   if (!isPushed) {
     return (
@@ -58,7 +58,7 @@ const PanelFooter: React.FC<Props> = ({
   return (
     <Container>
       <SocialEntry>
-        <TeslaSafePrice teslaSafePriceUsd={cakePriceUsd} />
+        <RicePrice ricePriceUsd={cakePriceUsd} />
         <SocialLinks />
       </SocialEntry>
       <SettingsEntry>
