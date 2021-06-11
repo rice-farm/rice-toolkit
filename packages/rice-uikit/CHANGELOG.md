@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.27.10]() (2021-06-11)
+
+### Features
+
+* Add shield icon for audit
+* Default external links to open in new page
+
+# [0.27.9]() (2021-06-05)
+
+### Features
+
+* Add RicePrice
+
 # [0.27.8]() (2021-05-31)
 
 ### Features
