@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.27.11]() (2021-06-11)
+
+### Features
+
+* Increase logo height from 24px to 50px
+
 # [0.27.10]() (2021-06-11)
 
 ### Features
