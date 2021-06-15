@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.27.13]() (2021-06-11)
+
+### Features
+
+* allow PanelFooter to take token prop to show different logo
+* change tertiary color to dark green
+* MenuLink open internal links in same tab external links in new tab
+
+# [0.27.12]() (2021-06-11)
+
+### Features
+
+* correct rice contract
+
+# [0.27.11-ts]() (2021-06-11)
+
+### Features
+
+* teslasafe logo in footer
+
 # [0.27.11]() (2021-06-11)
 
 ### Features
