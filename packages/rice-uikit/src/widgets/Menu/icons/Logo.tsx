@@ -10,7 +10,9 @@ const Logo: React.FC<LogoProps> = ({ isDark, ...props }) => {
   const textColor = isDark ? "#FFFFFF" : "#000000";
   if (isDark) {
     return (
-      <img style={{height:'24px', maxWidth:'auto'}} src="data:image/png;base64,iV
+      <img
+        style={{ height: "24px", maxWidth: "auto" }}
+        src="data:image/png;base64,iV
       BORw0KGgoAAAANSUhEUgAAAf
       QAAAH0CAYAAADL1t+KAAAACX
       BIWXMAAAsTAAALEwEAmpwYAA
@@ -4424,11 +4426,14 @@ const Logo: React.FC<LogoProps> = ({ isDark, ...props }) => {
       QREZESUKCLiIiUgAJdRESkBB
       ToIiIiJaBAFxERKQEFuoiISA
       n8PzFZChGqlKiYAAAAAElFTk
-      SuQmCC" />
+      SuQmCC"
+      />
     );
   } else {
     return (
-      <img style={{height:'24px', maxWidth:'auto'}} src="data:image/png;base64,iV
+      <img
+        style={{ height: "24px", maxWidth: "auto" }}
+        src="data:image/png;base64,iV
       BORw0KGgoAAAANSUhEUgAAAf
       QAAAH0CAYAAADL1t+KAAAACX
       BIWXMAAAsTAAALEwEAmpwYAA
@@ -9304,7 +9309,8 @@ const Logo: React.FC<LogoProps> = ({ isDark, ...props }) => {
       i6IAiCINQAIuiCIAiCUAOIoA
       uCIAhCDSCCLgiCIAg1gAi6IA
       iCINQA/z9fyEz3kpxWlQAAAA
-      BJRU5ErkJggg==" />
+      BJRU5ErkJggg=="
+      />
     );
   }
 };
