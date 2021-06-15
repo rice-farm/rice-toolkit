@@ -6,8 +6,8 @@ const MenuLink: React.FC<AnchorHTMLAttributes<HTMLAnchorElement>> = ({ href, ...
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const Tag: any = isHttpLink ? "a" : NavLink;
-  const isInternalLink = href?.includes("https://teslasafe.ricefarm.fi") || href?.includes("https://ricefarm.fi")
-  const target = isInternalLink ? '_self' : '_blank'
+  const isInternalLink = href?.includes("https://teslasafe.ricefarm.fi") || href?.includes("https://ricefarm.fi");
+  const target = isInternalLink ? "_self" : "_blank";
   const props = isHttpLink ? { href, target } : { to: href };
   return <Tag {...props} {...otherProps} />;
 };

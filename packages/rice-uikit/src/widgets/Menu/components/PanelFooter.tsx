@@ -10,7 +10,7 @@ import SocialLinks from "./SocialLinks";
 // import LangSelector from "./LangSelector";
 
 interface Props extends PanelProps, PushedProps {
-    coin?: string
+  coin?: string;
 }
 
 const Container = styled.div`
@@ -60,7 +60,7 @@ const PanelFooter: React.FC<Props> = ({
   return (
     <Container>
       <SocialEntry>
-          <RicePrice coin={coin} ricePriceUsd={cakePriceUsd} />
+        <RicePrice coin={coin} ricePriceUsd={cakePriceUsd} />
         <SocialLinks />
       </SocialEntry>
       <SettingsEntry>
