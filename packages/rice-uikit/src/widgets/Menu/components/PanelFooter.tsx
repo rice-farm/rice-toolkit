@@ -4,13 +4,14 @@ import { CogIcon } from "../../../components/Svg";
 import IconButton from "../../../components/Button/IconButton";
 import { MENU_ENTRY_HEIGHT } from "../config";
 import { PanelProps, PushedProps } from "../types";
-// import TeslaSafePrice from "./TeslaSafePrice";
 import RicePrice from "./RicePrice";
 import ThemeSwitcher from "./ThemeSwitcher";
 import SocialLinks from "./SocialLinks";
 // import LangSelector from "./LangSelector";
 
-interface Props extends PanelProps, PushedProps {}
+interface Props extends PanelProps, PushedProps {
+    coin?: string
+}
 
 const Container = styled.div`
   flex: none;
@@ -36,6 +37,7 @@ const SocialEntry = styled.div`
 `;
 
 const PanelFooter: React.FC<Props> = ({
+  coin,
   isPushed,
   pushNav,
   toggleTheme,
@@ -58,7 +60,7 @@ const PanelFooter: React.FC<Props> = ({
   return (
     <Container>
       <SocialEntry>
-        <RicePrice ricePriceUsd={cakePriceUsd} />
+          <RicePrice coin={coin} ricePriceUsd={cakePriceUsd} />
         <SocialLinks />
       </SocialEntry>
       <SettingsEntry>
