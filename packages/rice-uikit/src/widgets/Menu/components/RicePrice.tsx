@@ -1,11 +1,12 @@
 import React from "react";
 import styled from "styled-components";
-import {RiceRoundIcon} from "../../../components/Svg";
+import {RiceRoundIcon, TeslaSafeRoundIcon} from "../../../components/Svg";
 import Text from "../../../components/Text/Text";
-// import Skeleton from "../../../components/Skeleton/Skeleton";
+import Skeleton from "../../../components/Skeleton/Skeleton";
 
 interface Props {
-    ricePriceUsd?: number
+    ricePriceUsd?: number,
+    coin?: string
 }
 
 const PriceLink = styled.a`
@@ -21,17 +22,16 @@ const PriceLink = styled.a`
   }
 `;
 
-const RicePrice: React.FC<Props> = ({ricePriceUsd}) => {
+const RicePrice: React.FC<Props> = ({ricePriceUsd, coin}) => {
+    const tokenAddress =  coin === 'TeslaSafe' ? '0x3504de9e61FDFf2Fc70f5cC8a6D1Ee493434C1Aa' : '0xC4eEFF5aab678C3FF32362D80946A3f5De4a1861'
+    const infoUrl = `https://pancakeswap.info/token/${tokenAddress}`
     return ricePriceUsd ? (
-    <PriceLink href="https://pancakeswap.info/token/0xeA2cE3C20184C1814D372756360F4Be7621A70Bb" target="_blank">
-      <RiceRoundIcon width="24px" mr="8px" />
+    <PriceLink href={infoUrl} target="_blank">
+        {coin==='TeslaSafe' ? <TeslaSafeRoundIcon width="24px" mr="8px"/> : <RiceRoundIcon width="24px" mr="8px"/>}
             <Text color="textSubtle" bold>{`$${ricePriceUsd.toFixed(3)}`}</Text>
         </PriceLink>
     ) : (
-        <PriceLink href="https://pancakeswap.info/token/0xeA2cE3C20184C1814D372756360F4Be7621A70Bb" target="_blank">
-            <RiceRoundIcon width="24px" mr="8px" />
-            <Text color="textSubtle" bold>-</Text>
-        </PriceLink>
+        <Skeleton width={80} height={24}/>
     );
 };
 

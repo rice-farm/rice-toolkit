@@ -47,6 +47,7 @@ export interface MenuEntry {
 }
 
 export interface PanelProps {
+  coin?: string,
   isDark: boolean;
   toggleTheme: (isDark: boolean) => void;
   cakePriceUsd?: number;
@@ -57,6 +58,7 @@ export interface PanelProps {
 }
 
 export interface NavProps extends PanelProps {
+  coin?: string;
   account?: string;
   login: Login;
   profile?: Profile;

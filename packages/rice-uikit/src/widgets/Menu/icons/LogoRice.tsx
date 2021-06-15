@@ -8,7 +8,7 @@ interface LogoProps extends SvgProps {
 
 const Logo: React.FC<LogoProps> = ({ ...props}) => {
     return (
-        <Svg viewBox="0 0 2691 616" height="26" {...props}>
+        <Svg viewBox="0 0 2691 616" height="50" {...props}>
             <title>rice-logo-full</title>
             <g id="Artboard" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
                 <g id="rice-farm-logo" transform="translate(-76.000000, -87.000000)">

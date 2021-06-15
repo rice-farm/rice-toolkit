@@ -62,6 +62,7 @@ const MobileOnlyOverlay = styled(Overlay)`
 `;
 
 const Menu: React.FC<NavProps> = ({
+  coin,
   account,
   login,
   logout,
@@ -129,6 +130,7 @@ const Menu: React.FC<NavProps> = ({
       </StyledNav>
       <BodyWrapper>
         <Panel
+          coin={coin}
           isPushed={isPushed}
           isMobile={isMobile}
           showMenu={showMenu}
