@@ -23,3 +23,4 @@ export { default as TradeIcon } from "./Trade";
 export { default as TwitterIcon } from "./Twitter";
 export { default as ReferralIcon } from "./Referral";
 export { default as AuditIcon } from "./Shield";
+export { default as VaultIcon } from "./Vault";
