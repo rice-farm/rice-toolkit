@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+
+# [0.27.16]() (2021-06-17)
+
+### Features
+
+* fix(card-ribbon): Add z-index value to ribbon and spread props to improve flexibility of component (#88)
+* fix: Tooltip on hover disappear immediately when mouse leaves target element (#90)
+* fix: Copy clipboard on mobile devices (#2)
+* style: add new gradient color
+
 # [0.27.15]() (2021-06-16)
 
 ### Features
