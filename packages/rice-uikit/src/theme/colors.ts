@@ -36,6 +36,7 @@ export const lightColors: Colors = {
     cardHeader: "linear-gradient(111.68deg, #F2ECF2 0%, #E8F2F6 100%)",
     blue: "linear-gradient(180deg, #DFFEC6 0%, #C4FB97 100%)",
     violet: "linear-gradient(180deg, #EDF9FF 0%, #b8e5fa 100%)",
+    violetAlt: "linear-gradient(180deg, #CBD7EF 0%, #9A9FD0 100%)",
   },
 };
 
@@ -62,5 +63,6 @@ export const darkColors: Colors = {
     cardHeader: "linear-gradient(166.77deg, #4C6B64 0%, #35514B 100%)",
     blue: "linear-gradient(180deg, #339F7E 0%, #17956F 100%)",
     violet: "linear-gradient(180deg, #66AAC1 0%, #408BA4 100%)",
+    violetAlt: "linear-gradient(180deg, #434575 0%, #66578D 100%)",
   },
 };
