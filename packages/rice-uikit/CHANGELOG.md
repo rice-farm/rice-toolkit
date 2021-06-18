@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.27.18]() (2021-06-18) 
+
+### Features
+
+* refactor(uikit): Add locale to match (#92)
+* fix: Visible Border and background in ios for bunny slider (#93)
+* fix: Add missing ios support for balance input (#75)
+* feat: Add new icons StarFill StarLine
+
+
 # [0.27.17]() (2021-06-18)
 
 ### Features
