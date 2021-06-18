@@ -147,7 +147,7 @@ export const socials = [
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/teslasafe",
+    href: "https://twitter.com/superblockchn",
   },
 ];
 
