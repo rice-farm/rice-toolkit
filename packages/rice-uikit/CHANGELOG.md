@@ -11,6 +11,14 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 * fix: Visible Border and background in ios for bunny slider (#93)
 * fix: Add missing ios support for balance input (#75)
 * feat: Add new icons StarFill StarLine
+  
+* chore: make tabs more generic
+* fix: Chrome blurs logo during scaling animation (#98)
+* feat(text): Add styled system { layout } style to Text (#96)
+
+* add missing colors
+* update twitter to superblockchain
+
 
 
 # [0.27.17]() (2021-06-18)
