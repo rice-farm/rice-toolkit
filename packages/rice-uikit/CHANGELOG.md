@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.27.19]() (2021-06-19)
+
+### Features
+
+* rebrand slider for rice farm
+
 # [0.27.18]() (2021-06-18) 
 
 ### Features
@@ -18,8 +24,6 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 * add missing colors
 * update twitter to superblockchain
-
-
 
 # [0.27.17]() (2021-06-18)
 
