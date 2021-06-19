@@ -3,6 +3,55 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.27.19]() (2021-06-19)
+
+### Features
+
+* rebrand slider for rice farm
+
+# [0.27.18]() (2021-06-18) 
+
+### Features
+
+* refactor(uikit): Add locale to match (#92)
+* fix: Visible Border and background in ios for bunny slider (#93)
+* fix: Add missing ios support for balance input (#75)
+* feat: Add new icons StarFill StarLine
+  
+* chore: make tabs more generic
+* fix: Chrome blurs logo during scaling animation (#98)
+* feat(text): Add styled system { layout } style to Text (#96)
+
+* add missing colors
+* update twitter to superblockchain
+
+# [0.27.17]() (2021-06-18)
+
+### Features
+
+* tooltip improvements (#91)
+
+# [0.27.16]() (2021-06-17)
+
+### Features
+
+* fix(card-ribbon): Add z-index value to ribbon and spread props to improve flexibility of component (#88)
+* fix: Tooltip on hover disappear immediately when mouse leaves target element (#90)
+* fix: Copy clipboard on mobile devices (#2)
+* style: add new gradient color
+
+# [0.27.15]() (2021-06-16)
+
+### Features
+
+* ft: add vault icon
+
+# [0.27.14]() (2021-06-16)
+
+### Features
+
+* refactor: move toasts to context to support components
+
 # [0.27.13]() (2021-06-11)
 
 ### Features

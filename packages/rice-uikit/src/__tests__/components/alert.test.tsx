@@ -18,14 +18,14 @@ it("renders correctly", () => {
     }
 
     .c5 {
-      color: #08a029;
+      color: #280D5F;
       font-size: 16px;
       font-weight: 600;
       line-height: 1.5;
     }
 
     .c6 {
-      color: #08a029;
+      color: #280D5F;
       font-size: 16px;
       font-weight: 400;
       line-height: 1.5;
