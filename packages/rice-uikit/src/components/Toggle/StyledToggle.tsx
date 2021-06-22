@@ -37,6 +37,7 @@ export const Handle = styled.div<HandleProps>`
   top: ${getScale("handleTop")};
   transition: left 200ms ease-in;
   width: ${getScale("handleWidth")};
+  box-shadow: ${({ theme }) => theme.shadows.focus};
   z-index: 1;
 `;
 
