@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.27.21]() (2021-06-20)
+
+### Features
+
+* rebrand socials to fuzionchain
+* update success color
+
 # [0.27.20]() (2021-06-20)
 
 ### Features
