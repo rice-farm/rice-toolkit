@@ -48,6 +48,12 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 * Add shield icon for audit
 * Default external links to open in new page
 
+# [0.27.15-ts]() (2021-06-05)
+
+### Features
+
+* fuzion rebrand
+
 # [0.27.9]() (2021-06-05)
 
 ### Features
