@@ -142,12 +142,12 @@ export const socials = [
   {
     label: "Telegram",
     icon: "TelegramIcon",
-    href: "https://t.me/tesla_safe",
+    href: "https://t.me/fuzionchain",
   },
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/teslasafe",
+    href: "https://twitter.com/fuzionchain",
   },
 ];
 
