@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.27.24]() (2021-06-20)
+
+### Features
+
+* Lottery colors
+* Lottery icons
+
 # [0.27.23]() (2021-06-20)
 
 ### Features
