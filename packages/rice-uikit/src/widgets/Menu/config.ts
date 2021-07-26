@@ -3,7 +3,7 @@ import { LinkStatus } from "./types";
 export const status = {
   LIVE: <LinkStatus>{
     text: "LIVE",
-    color: "thirsiary",
+    color: "tertiary",
   },
   SOON: <LinkStatus>{
     text: "SOON",

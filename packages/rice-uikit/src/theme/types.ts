@@ -42,7 +42,6 @@ export type Colors = {
   primaryBright: string;
   primaryDark: string;
   secondary: string;
-  thirsiary: string;
   tertiary: string;
   success: string;
   failure: string;
