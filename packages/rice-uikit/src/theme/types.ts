@@ -42,8 +42,8 @@ export type Colors = {
   primaryBright: string;
   primaryDark: string;
   secondary: string;
-  thirsiary: string;
   tertiary: string;
+  quaternary:string;
   success: string;
   failure: string;
   warning: string;
